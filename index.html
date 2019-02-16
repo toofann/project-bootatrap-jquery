@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>bootstrap</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+	<link rel="stylesheet" href="owl.carousel.min.css">
+	<link rel="stylesheet" href="owl.theme.default.min.css">
+    <link rel="stylesheet" href="css.css">
+    <link rel="stylesheet" href="respons.css">
+	<script src="popper.min.js"></script>
+</head>
+<body>
+	
+	<!-- header -->
+	<div id="header" class="position-relative">
+
+	<!-- modal -->
+	<button id="btnsign" class="btn btn-dark btn-sm shadow border-secondary ml-3 mt-3" data-toggle="modal" data-target="#signmod">SIGN UP</button>
+	<div class="modal fade" id="logmod">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+				<h5 class="modal-title">Enter yor email and pass</h5>
+					<button class="close" type="button" data-dismiss="modal">&times;</button>
+				</div>
+				<div class="modal-body">
+				<input type="email" placeholder="email">
+				<input type="password" placeholder="password">
+				</div>
+				<div class="modal-footer">
+				<button type="button" class="btn btn-success btn-sm">login</button>
+				<button type="button" class="btn btn-danger btn-sm" data-dismiss="modal">close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<!-- modal -->
+	<button id="btnlog" class="btn btn-dark btn-sm shadow border-secondary ml-3 mt-3" data-toggle="modal" data-target="#logmod">LOGIN</button>
+	<div class="modal fade" id="signmod">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+				<h5 class="modal-title">Fill in the form below</h5>
+					<button class="close" type="button" data-dismiss="modal">&times;</button>
+				</div>
+				<div class="modal-body">
+				<input type="email" placeholder="email">
+				<input type="password" placeholder="password">
+				<input type="text" class="mt-2" placeholder="first name">
+				<input type="text" placeholder="last name">
+				</div>
+				<div class="modal-footer">
+				<button type="button" class="btn btn-success btn-sm">login</button>
+				<button type="button" class="btn btn-danger btn-sm" data-dismiss="modal">close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+		<input class="input1" type="text" onClick="style='width:97%;margin-top:15px;margin-left:5px;'" placeholder=" Search">
+	
+	<!-- form search-->
+		<div id="divinput" class="input-group input-group-sm w-25 mt-3 mr-3 float-right">
+			<input id="inputgroup" type="text" class="form-control" placeholder="Search">
+		<div class="input-group-append">
+			<button id="inputgroup2" class="btn btn-dark border-secondary" type="submit">Go</button>
+		</div>
+		</div>
+
+
+	</div>
+	<!-- navbar -->
+	<div class="sticky-top">
+	<nav id="nav" class="container navbar navbar-expand-md mt-4">
+		<a class="navbar-brand " href=""><h2>MY SHOP</h2>
+			<span class="position-fixed">
+				<a href=""><img src="img/qq.png" alt="shopimg"></a>
+			</span>
+		</a>
+		<button class="navbar-toggler" data-toggle="collapse" data-target="#navbarcol">
+			<img src="img/list.png" alt="toggle">
+		</button>
+		<div class="collapse navbar-collapse justify-content-end" id="navbarcol">
+			<ul class="navbar-nav">
+				<li class="nav-item">
+					<a class="nav-link" href="">home</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#cantact">contact</a>
+				</li>
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="">shop </a>
+					<div class="dropdown-menu">
+						<a class="dropdown-item" href="#container2">shoe</a>
+						<a class="dropdown-item" href="#container2">bag</a>
+						<a class="dropdown-item" href="#container2">hat</a>
+					</div>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#owl1a">gallery</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#owl2a">new</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="">team</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="">progress</a>
+				</li>
+			</ul>
+			
+		</div>
+	</nav>
+	</div>
+	<!-- slide -->
+	
+		<div id="demo" class="container carousel slide carousel-fade mt-3" data-ride="carousel" data-interval="4000">
+		<ul class="carousel-indicators">
+			<li data-target="#demo" data-slide-to="0" class="active"></li>
+			<li data-target="#demo" data-slide-to="1"></li>
+			<li data-target="#demo" data-slide-to="2"></li>
+		</ul>
+		<div class="carousel-inner">
+			<div class="carousel-item active">
+				<img src="img/Untitqqled.png" alt="carousel">
+				<div class="carousel-caption d-flex">
+					<div class="d-flex"><img class="rounded-circle" src="img/aaaa.png" alt="shoe"></div>
+					<div class="d-flex align-self-center mx-auto flex-column">
+					<h1>High Quality Bag</h1>
+					<p>behtarin va shik tarin jens</p>
+					<span><button id="btnlearnmore" class="btn btn-outline-light">SHOP NOW</button></span>
+					</div>
+					
+				</div>
+			</div>
+			<div class="carousel-item">
+				<img src="img/Untitqqled.png" alt="carousel">
+				<div class="carousel-caption">
+					<div class="">
+					<div><img class="rounded-circle" src="img/aa-magic.png" alt="bag"></div>
+					</div>
+					<h1>High Quality Shoe</h1>
+					<p>behtarin va shik tarin jens</p>
+					<span><button class="btn btn-outline-light">SHOP NOW</button></span>
+				</div>
+			</div>
+			<div class="carousel-item">
+				<img src="img/Untitqqled.png" alt="carousel">
+				<div class="carousel-caption d-flex justify-content-around">
+					<div class="d-flex justify-content-start flex-column align-self-center">
+					<h1>High Quality Hat</h1>
+					<p>behtarin va shik tarin jens</p>
+					<span><button class="btn btn-outline-light">SHOP NOW</button></span>
+					</div>
+					<div class="d-flex align-self-end"><img class="rounded-circle" src="img/1a.png" alt="hat"></div>
+				</div>
+			</div>
+		</div>
+		<a class="carousel-control-next" href="#demo" data-slide="next">
+			<span class="carousel-control-next-icon"></span>
+		</a>
+		<a class="carousel-control-prev" href="#demo" data-slide="prev">
+			<span class="carousel-control-prev-icon"></span>
+		</a>
+	</div>
+	
+	<!-- slide2 -->
+	<div id="demo2" class="container carousel slide carousel-fade mt-3" data-ride="carousel" data-interval="3000">
+		<ul class="carousel-indicators">
+			<li data-target="#demo2" data-slide-to="0" class="active"></li>
+			<li data-target="#demo2" data-slide-to="1"></li>
+			<li data-target="#demo2" data-slide-to="2"></li>
+		</ul>
+		<div class="carousel-inner">
+			<div class="carousel-item active">
+				<img src="img/147.JPG" alt="">
+				<div class="carousel-caption">
+					<h1>High Quality Shoe</h1>
+					<p>behtarin va shik tarin jens</p>
+					<span><button class="btn btn-outline-light">SHOP NOW</button></span>
+				</div>
+			</div>
+			<div class="carousel-item">
+				<img src="img/147.JPG" alt="">
+				<div class="carousel-caption">
+					<h1>High Quality Bag</h1>
+					<p>behtarin va shik tarin jens</p>
+					<span><button class="btn btn-outline-light">SHOP NOW</button></span>
+				</div>
+			</div>
+			<div class="carousel-item">
+				<img src="img/147.JPG" alt="">
+				<div class="carousel-caption">					
+					<h1>High Quality Hat</h1>
+					<p>behtarin va shik tarin jens</p>
+					<span><button class="btn btn-outline-light">SHOP NOW</button></span>
+				</div>
+			</div>
+		</div>
+		<a class="carousel-control-next" href="#demo2" data-slide="next">
+			<span class="carousel-control-next-icon"></span>
+		</a>
+		<a class="carousel-control-prev" href="#demo2" data-slide="prev">
+			<span class="carousel-control-prev-icon"></span>
+		</a>
+	</div>
+	
+	<!-- mixit up menu-->
+
+	<div id="container2" class="container-fluid">
+		<h1 class='text-center text-black'>Products</h1>
+		<ul class="container nav nav-tabs justify-content-center">
+			 <li class="nav-item pb-2">
+				<button class="filter btn btn-outline-dark" data-filter="all">All</button>
+				
+			 </li>
+			 <li class="nav-item pl-1">
+				<button class="filter btn btn-outline-dark" data-filter=".shoe">Shoe</button>
+			 </li>
+			 <li class="nav-item pl-1">
+				<button class="filter btn btn-outline-dark" data-filter=".bag">Bag</button>
+			 </li>
+			<li class="nav-item pl-1">
+				<button class="filter btn btn-outline-dark" data-filter=".hat">Hat</button>
+			 </li>
+		</ul>
+
+	<div class="container con3">
+	<div id="miximg" class="row d-flex justify-content-center">
+		<div class="mix hat col-6 col-sm-4 col-md-4 col-lg-3 col-xl-2 mt-5 divimgsale position-relative">
+			<img class="img-fluid d-block" src="img/6.png" alt="">
+			<div class="divsalemix position-relative">
+				<button class="butsalemix btn btn-outline-success position-absolute">buy</button>
+			</div>
+			<span class="d-flex justify-content-around"><del class="text-black">2000$</del><b class="text-success">1500$</b></span>
+		</div>
+		<div class="mix bag col-6 col-sm-4 col-md-4 col-lg-3 col-xl-2 mt-5 divimgsale position-relative justify-content-center">
+			<img class="img-fluid d-block" src="img/10.png" alt="">
+			<div class="divsalemix position-relative">
+				<button class="butsalemix btn btn-outline-success position-absolute">buy</button>
+			</div>
+			<span class="d-flex justify-content-around"><del class="text-black">2000$</del><b class="text-success">1500$</b></span>
+		</div>
+		<div class="mix shoe col-6 col-sm-4 col-md-4 col-lg-3 col-xl-2 mt-5 divimgsale position-relative  justify-content-center">
+			<img class="img-fluid d-block" src="img/5.png" alt="">
+			<div class="divsalemix position-relative">
+				<button class="butsalemix btn btn-outline-success position-absolute">buy</button>
+			</div>
+			<span class="d-flex justify-content-around"><del class="text-black">2000$</del><b class="text-success">1500$</b></span>
+		</div>
+		<div class="mix hat col-6 col-sm-4 col-md-4 col-lg-3 col-xl-2 mt-5 divimgsale position-relative  justify-content-center">
+			<img class="img-fluid d-block" src="img/7.png" alt="">
+			<div class="divsalemix position-relative">
+				<button class="butsalemix btn btn-outline-success position-absolute">buy</button>
+			</div>
+			<span class="d-flex justify-content-around"><del class="text-black">2000$</del><b class="text-success">1500$</b></span>
+		</div>
+		<div class="mix hat col-6 col-sm-4 col-md-4 col-lg-3 col-xl-2 mt-5 divimgsale position-relative justify-content-center">
+			<img class="img-fluid d-block" src="img/8.png" alt="">
+			<div class="divsalemix position-relative">
+				<button class="butsalemix btn btn-outline-success position-absolute">buy</button>
+			</div>
+			<span class="d-flex justify-content-around"><del class="text-black">2000$</del><b class="text-success">1500$</b></span>
+		</div>
+		<div class="mix bag col-6 col-sm-4 col-md-4 col-lg-3 col-xl-2 mt-5 divimgsale position-relative  justify-content-center">
+			<img class="img-fluid d-block" src="img/15.png" alt="">
+			<div class="divsalemix position-relative">
+				<button class="butsalemix btn btn-outline-success position-absolute">buy</button>
+			</div>
+			<span class="d-flex justify-content-around"><del class="text-black">2000$</del><b class="text-success">1500$</b></span>
+		</div>
+		<div class="mix shoe col-6 col-sm-4 col-md-4 col-lg-3 col-xl-2 mt-5 divimgsale position-relative  justify-content-center">
+			<img class="img-fluid d-block" src="img/11.png" alt="">
+			<div class="divsalemix position-relative">
+				<button class="butsalemix btn btn-outline-success position-absolute">buy</button>
+			</div>
+			<span class="d-flex justify-content-around"><del class="text-black">2000$</del><b class="text-success">1500$</b></span>
+		</div>
+		<div class="mix bag col-6 col-sm-4 col-md-4 col-lg-3 col-xl-2 mt-5 divimgsale position-relative  justify-content-center">
+			<img class="img-fluid d-block" src="img/18.png" alt="">
+			<div class="divsalemix position-relative">
+				<button class="butsalemix btn btn-outline-success position-absolute">buy</button>
+			</div>
+			<span class="d-flex justify-content-around"><del class="text-black">2000$</del><b class="text-success">1500$</b></span>
+		</div>
+		<div class="mix shoe col-6 col-sm-4 col-md-4 col-lg-3 col-xl-2 mt-5 divimgsale position-relative justify-content-center">
+			<img class="img-fluid d-block" src="img/13.png" alt="">
+			<div class="divsalemix position-relative">
+				<button class="butsalemix btn btn-outline-success position-absolute">buy</button>
+			</div>
+			<span class="d-flex justify-content-around"><del class="text-black">2000$</del><b class="text-success">1500$</b></span>
+		</div>
+		<div class="mix shoe col-6 col-sm-4 col-md-4 col-lg-3 col-xl-2 mt-5 divimgsale position-relative  justify-content-center">
+			<img class="img-fluid d-block" src="img/21.png" alt="">
+			<div class="divsalemix position-relative">
+				<button class="butsalemix btn btn-outline-success position-absolute">buy</button>
+			</div>
+			<span class="d-flex justify-content-around"><del class="text-black">2000$</del><b class="text-success">1500$</b></span>
+		</div>
+		<div class="mix hat col-6 col-sm-4 col-md-4 col-lg-3 col-xl-2 mt-5 divimgsale position-relative  justify-content-center">
+			<img class="img-fluid d-block" src="img/23.png" alt="">
+			<div class="divsalemix position-relative">
+				<button class="butsalemix btn btn-outline-success position-absolute">buy</button>
+			</div>
+			<span class="d-flex justify-content-around"><del class="text-black">2000$</del><b class="text-success">1500$</b></span>
+		</div>
+		<div class="mix bag col-6 col-sm-4 col-md-4 col-lg-3 col-xl-2 mt-5 divimgsale position-relative justify-content-center">
+			<img class="img-fluid d-block" src="img/19.png" alt="">
+			<div class="divsalemix position-relative">
+				<button class="butsalemix btn btn-outline-success position-absolute">buy</button>
+			</div>
+			<span class="d-flex justify-content-around"><del class="text-black">2000$</del><b class="text-success">1500$</b></span>
+		</div>
+		<div class="mix hat col-6 col-sm-4 col-md-4 col-lg-3 col-xl-2 mt-5 divimgsale position-relative justify-content-center">
+			<img class="img-fluid d-block" src="img/16.png" alt="">
+			<div class="divsalemix position-relative">
+				<button class="butsalemix btn btn-outline-success position-absolute">buy</button>
+			</div>
+			<span class="d-flex justify-content-around"><del class="text-black">2000$</del><b class="text-success">1500$</b></span>
+		</div>
+		<div class="mix shoe col-6 col-sm-4 col-md-4 col-lg-3 col-xl-2 mt-5 divimgsale position-relative  justify-content-center">
+			<img class="img-fluid d-block" src="img/22.png" alt="">
+			<div class="divsalemix position-relative">
+				<button class="butsalemix btn btn-outline-success position-absolute">buy</button>
+			</div>
+			<span class="d-flex justify-content-around"><del class="text-black">2000$</del><b class="text-success">1500$</b></span>
+		</div>
+		<div class="mix bag col-6 col-sm-4 col-md-4 col-lg-3 col-xl-2 mt-5 divimgsale position-relative justify-content-center">
+			<img class="img-fluid d-block" src="img/20.png" alt="">
+			<div class="divsalemix position-relative">
+				<button class="butsalemix btn btn-outline-success position-absolute">buy</button>
+			</div>
+			<span class="d-flex justify-content-around"><del class="text-black">2000$</del><b class="text-success">1500$</b></span>
+		</div>
+	</div>
+	</div>
+	</div>
+	
+	<!-- owl carousel -->
+	
+	<div id="owl1a" class="container owlcontainer">
+		<h1 class='text-center text-white'>New Products</h1>
+	<div id="owl1" class="owl-carousel owl-theme">
+		<div class="divimgsale item position-relative">
+			<img class="rounded d-block" src="img/22.png" alt="">
+			<div class="divsale position-absolute">
+				<button class="butsale btn btn-outline-success position-absolute">buy</button>
+			</div>
+			<span class="d-flex justify-content-around"><del class="text-white">2000$</del><b class="text-success">1500$</b></span>
+		</div>
+		<div class="divimgsale item position-relative">
+			<img class="rounded d-block" src="img/6.png" alt="">
+			<div class="divsale position-absolute">
+				<button class="butsale btn btn-outline-success position-absolute">buy</button>
+			</div>
+			<span class="d-flex justify-content-around"><del class="text-white">2000$</del><b class="text-success">1500$</b></span>
+		</div>
+		<div class="divimgsale item position-relative">
+			<img class="rounded d-block" src="img/10.png" alt="">
+			<div class="divsale position-absolute">
+				<button class="butsale btn btn-outline-success position-absolute">buy</button>
+			</div>
+			<span class="d-flex justify-content-around"><del class="text-white">2000$</del><b class="text-success">1500$</b></span>
+		</div>
+		<div class="divimgsale item position-relative">
+			<img class="rounded d-block" src="img/13.png" alt="">
+			<div class="divsale position-absolute">
+				<button class="butsale btn btn-outline-success position-absolute">buy</button>
+			</div>
+			<span class="d-flex justify-content-around"><del class="text-white">2000$</del><b class="text-success">1500$</b></span>
+		</div>
+		<div class="divimgsale item position-relative">
+			<img class="rounded d-block" src="img/7.png" alt="">
+			<div class="divsale position-absolute">
+				<button class="butsale btn btn-outline-success position-absolute">buy</button>
+			</div>
+			<span class="d-flex justify-content-around"><del class="text-white">2000$</del><b class="text-success">1500$</b></span>
+		</div>
+		<div class="divimgsale item position-relative">
+			<img class="rounded d-block" src="img/15.png" alt="">
+			<div class="divsale position-absolute">
+				<button class="butsale btn btn-outline-success position-absolute">buy</button>
+			</div>
+			<span class="d-flex justify-content-around"><del class="text-white">2000$</del><b class="text-success">1500$</b></span>
+		</div>
+		<div class="divimgsale item position-relative">
+			<img class="rounded d-block" src="img/12.png" alt="">
+			<div class="divsale position-absolute">
+				<button class="butsale btn btn-outline-success position-absolute">buy</button>
+			</div>
+			<span class="d-flex justify-content-around"><del class="text-white">2000$</del><b class="text-success">1500$</b></span>
+		</div>
+		<div class="divimgsale item position-relative">
+			<img class="rounded d-block" src="img/16.png" alt="">
+			<div class="divsale position-absolute">
+				<button class="butsale btn btn-outline-success position-absolute">buy</button>
+			</div>
+			<span class="d-flex justify-content-around"><del class="text-white">2000$</del><b class="text-success">1500$</b></span>
+		</div>
+		<div class="divimgsale item position-relative">
+			<img class="rounded d-block" src="img/17.png" alt="">
+			<div class="divsale position-absolute">
+				<button class="butsale btn btn-outline-success position-absolute">buy</button>
+			</div>
+			<span class="d-flex justify-content-around"><del class="text-white">2000$</del><b class="text-success">1500$</b></span>
+		</div>
+		<div class="divimgsale item position-relative">
+			<img class="rounded d-block" src="img/11.png" alt="">
+			<div class="divsale position-absolute">
+				<button class="butsale btn btn-outline-success position-absolute">buy</button>
+			</div>
+			<span class="d-flex justify-content-around"><del class="text-white">2000$</del><b class="text-success">1500$</b></span>
+		</div>
+		<div class="divimgsale item position-relative">
+			<img class="rounded d-block" src="img/14.png" alt="">
+			<div class="divsale position-absolute">
+				<button class="butsale btn btn-outline-success position-absolute">buy</button>
+			</div>
+			<span class="d-flex justify-content-around"><del class="text-white">2000$</del><b class="text-success">1500$</b></span>
+		</div>
+
+	</div>
+	</div>
+	<div class="divfixed">
+	<div id="owl2a" class="container owlcontainer2">
+			<h1 class='text-center text-white'>Products</h1>
+	<div id="owl2" class="owl-carousel owl-theme">
+		<div class="divimgsale item position-relative">
+			<img class="rounded-circle d-block" src="img/16.png" alt="">
+			<div class="divsale position-absolute">
+				<button class="butsale btn btn-outline-success position-absolute">buy</button>
+			</div>
+			<span class="d-flex justify-content-center"><del class="text-white mr-2">2000$</del><b class="text-success">1500$</b></span>
+		</div>
+		<div class="divimgsale item position-relative">
+			<img class="rounded-circle d-block" src="img/22.png" alt="">
+			<div class="divsale position-absolute">
+				<button class="butsale btn btn-outline-success position-absolute">buy</button>
+			</div>
+			<span class="d-flex justify-content-center"><del class="text-white mr-2">2000$</del><b class="text-success">1500$</b></span>
+		</div>
+		<div class="divimgsale item position-relative">
+			<img class="rounded-circle d-block" src="img/18.png" alt="">
+			<div class="divsale position-absolute">
+				<button class="butsale btn btn-outline-success position-absolute">buy</button>
+			</div>
+			<span class="d-flex justify-content-center"><del class="text-white mr-2">2000$</del><b class="text-success">1500$</b></span>
+		</div>
+		<div class="divimgsale item position-relative">
+			<img class="rounded-circle d-block" src="img/14.png" alt="">
+			<div class="divsale position-absolute">
+				<button class="butsale btn btn-outline-success position-absolute">buy</button>
+			</div>
+			<span class="d-flex justify-content-center"><del class="text-white mr-2">2000$</del><b class="text-success">1500$</b></span>
+		</div>
+		<div class="divimgsale item position-relative">
+			<img class="rounded-circle d-block" src="img/13.png" alt="">
+			<div class="divsale position-absolute">
+				<button class="butsale btn btn-outline-success position-absolute">buy</button>
+			</div>
+			<span class="d-flex justify-content-center"><del class="text-white mr-2">2000$</del><b class="text-success">1500$</b></span>
+		</div>
+		<div class="divimgsale item position-relative">
+			<img class="rounded-circle d-block" src="img/20.png" alt="">
+			<div class="divsale position-absolute">
+				<button class="butsale btn btn-outline-success position-absolute">buy</button>
+			</div>
+			<span class="d-flex justify-content-center"><del class="text-white mr-2">2000$</del><b class="text-success">1500$</b></span>
+		</div>
+		<div class="divimgsale item position-relative">
+			<img class="rounded-circle d-block" src="img/7.png" alt="">
+			<div class="divsale position-absolute">
+				<button class="butsale btn btn-outline-success position-absolute">buy</button>
+			</div>
+			<span class="d-flex justify-content-center"><del class="text-white mr-2">2000$</del><b class="text-success">1500$</b></span>
+		</div>
+		<div class="divimgsale item position-relative">
+			<img class="rounded-circle d-block" src="img/11.png" alt="">
+			<div class="divsale position-absolute">
+				<button class="butsale btn btn-outline-success position-absolute">buy</button>
+			</div>
+			<span class="d-flex justify-content-center"><del class="text-white mr-2">2000$</del><b class="text-success">1500$</b></span>
+		</div>
+		<div class="divimgsale item position-relative">
+			<img class="rounded-circle d-block" src="img/10.png" alt="">
+			<div class="divsale position-absolute">
+				<button class="butsale btn btn-outline-success position-absolute">buy</button>
+			</div>
+			<span class="d-flex justify-content-center"><del class="text-white mr-2">2000$</del><b class="text-success">1500$</b></span>
+		</div>
+		<div class="divimgsale item position-relative">
+			<img class="rounded-circle d-block" src="img/6.png" alt="">
+			<div class="divsale position-absolute">
+				<button class="butsale btn btn-outline-success position-absolute">buy</button>
+			</div>
+			<span class="d-flex justify-content-center"><del class="text-white mr-2">2000$</del><b class="text-success">1500$</b></span>
+		</div>
+		<div class="divimgsale item position-relative">
+			<img class="rounded-circle d-block" src="img/5.png" alt="">
+			<div class="divsale position-absolute">
+				<button class="butsale btn btn-outline-success position-absolute">buy</button>
+			</div>
+			<span class="d-flex justify-content-center"><del class="text-white mr-2">2000$</del><b class="text-success">1500$</b></span>
+		</div>
+
+	</div>
+	</div>
+	</div>
+	<!-- footer -->
+	<footer id="cantact" class="container-fluid">
+		<div class="container confooter">
+		<div id="rowfooter" class="row">
+			<div class="col-12 col-sm-6 col-md-4 col-lg-3 pt-3 pb-3">
+				<h4>Company Details</h4>
+				<p>Company Name<br>Street Name & Number<br>Town<br>Postcode/Zip</p>
+				<p>Tel: xxxxx xxxxxxxxxx<br>Fax: xxxxx xxxxxxxxxx<br>Email: <a id="linkfooter" href="">contact@mydomain.com</a></p>
+				<p>Office Hours<br>Monday - Friday: 08:00 - 17:30<br>Saturday: 08:00 - 13:00</p>
+			</div>
+			<div class="col-12 col-sm-6 col-md-4 col-lg-3 pt-3 pb-3">
+				<h4>Stay Social</h4>
+				<div class="media align-items-center border-bottom pb-2">
+					<img class="align-self-center mr-2" src="img/Composed-layer@1X(7).png" alt="">
+					<div class="media-body">
+						<a href="">Get linked up in LinkedIn</a>
+					</div>
+				</div>
+				<div class="media align-items-center border-bottom pb-2 pt-2">
+					<img class="align-self-center mr-2" src="img/Composed-layer@1X(8).png" alt="">
+					<div class="media-body">
+						<a href="">Keep up with our Tweets</a>
+					</div>
+				</div>
+				<div class="media align-items-center border-bottom pb-2 pt-2">
+					<img class="align-self-center mr-2" src="img/Composed-layer@1X(9).png" alt="">
+					<div class="media-body">
+						<a href="">Photos on Pinterest</a>
+					</div>
+				</div>
+				<div class="media align-items-center border-bottom pb-2 pt-2">
+					<img class="align-self-center mr-2" src="img/Composed-layer@1X(10).png" alt="">
+					<div class="media-body">
+						<a href="">RSS Feed</a>
+					</div>
+				</div>
+				<div class="media align-items-center border-bottom pb-2 pt-2">
+					<img class="align-self-center mr-2" src="img/Composed-layer@1X(8).png" alt="">
+					<div class="media-body">
+						<a href="">Keep up with our Tweets</a>
+					</div>
+				</div>
+				<div class="media align-items-center pb-2 pt-2">
+					<img class="align-self-center mr-2" src="img/Composed-layer@1X(7).png" alt="">
+					<div class="media-body">
+						<a href="">Get linked up in LinkedIn</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-12 col-sm-6 col-md-4 col-lg-3 pt-3 pb-3">
+				<h4>From The Blog</h4>
+				<p>Blog Post Title<br>Posted by Admin on 00.00.0000<br>
+				<br>Vestibulumaccumsan egestibulum eu justo convallis augue estas aenean elit intesque sed facilis pedeestas aenean elit intesque sed facilispede estibulu.</p>
+				<a id="linkfooter2" href="">Read More »</a>
+			</div>
+			<div class="col-12 col-sm-6 col-md-4 col-lg-3 pt-3 pb-3">
+				<h4>Contact Us</h4>
+				<input class="form-control mb-1" type="text" placeholder="Name" >
+				<input class="form-control mb-1" type="email" placeholder="Email">
+				<textarea class="form-control mb-1 h-50" type="text" placeholder="Message"></textarea>
+				<button type="submit" class="btn btn-white btn-sm">SUBMIT</button>
+			</div>
+		</div>
+		</div>
+	</footer>
+	<div class="d-flex justify-content-center"><p class='webdedigne text-white'>Web Designe 2018</p></div>
+
+
+	
+
+	<!--  SCRIPT  -->
+<script src="jquery-3.3.1.min.js"></script>
+<script src="bootstrap.min.js"></script>
+<script src="jquery.mixitup.js"></script>
+<script src="owl.carousel.min.js"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$("#miximg").mixItUp();
+			$("#owl1").owlCarousel({
+				margin:10,
+				loop:true,
+				items:5,
+				autoplay:true,
+				autoplayTimeout:4000,
+				autoplayHoverPause:true,
+				center:true,
+				responsive:
+				{
+					0:
+					{
+						items:2
+					},
+					400:
+					{
+						items:3
+					},
+					600:
+					{
+						items:4
+					},
+					1200:
+					{
+						items:5
+					}
+				}
+				
+			});
+			$("#owl2").owlCarousel({
+				margin:10,
+				loop:true,
+				nav:true,
+				navText:["next","prev"],
+				items:5,
+				autoplay:true,
+				autoplayTimeout:6000,
+				center:true,
+				responsive:
+				{
+					0:
+					{
+						items:2
+					},
+					400:
+					{
+						items:3
+					},
+					600:
+					{
+						items:4
+					},
+					1200:
+					{
+						items:5
+					}
+				}
+				
+			});
+		});
+	</script>		
+	
+</body>
+</html>

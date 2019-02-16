@@ -1,0 +1,92 @@
+@media screen and (max-width:995px)
+{
+	#demo{
+		display: none;
+	}
+	#demo2
+	{
+		display:inherit;
+	}
+}
+@media screen and (max-width:600px)
+{
+	#demo2, .carousel-inner, .carousel-item
+	{
+		height: 204px;
+	}
+	.carousel-caption h1
+	{
+		font-size: 30px;
+	}
+	.carousel-caption h5
+	{
+		font-size: 15px;
+	}
+	.carousel-caption button
+	{
+		font-size: 12px;
+	}
+	#inputgroup2
+	{
+		padding-top:1px !important; 
+	}
+	#rowfooter
+	{
+		text-align: center;
+	}
+	.carousel-caption p
+	{
+		font-size: 15px;
+	}
+	#header span
+	{
+		margin-top: 13px;
+	}
+	#container2
+	{
+		margin-top: 50px;
+	}
+	#container2 h1
+	{
+		padding-top :20px;
+	}
+	.divimgsale
+	{
+		margin-top: 20px !important;
+	}
+	.con3
+	{
+		padding-bottom: 50px;
+	}
+	#owl1a h1 , #owl2a h1
+	{
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+	#owl1a , #owl2a
+	{
+		padding-bottom: 40px;
+	}
+	.confooter
+	{
+		padding-top: 30px;
+		padding-bottom: 90px;
+	}
+	#rowfooter h4 
+	{
+		margin-bottom: 30px;
+	}
+}
+
+@media screen and (max-width:400px)
+{
+	#divinput
+	{
+		display: none;
+	}
+	.input1
+	{
+		display: inherit;
+	}
+
+}
